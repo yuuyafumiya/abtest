@@ -1,1 +1,1 @@
-web: gunicorn abtest.wsgi --log-file -
+web: gunicorn abtest:nc --log-file=-
