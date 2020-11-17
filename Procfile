@@ -1,1 +1,1 @@
-web: abtest
+web: gunicorn app:nc --log-file -
