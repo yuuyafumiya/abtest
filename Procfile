@@ -1,1 +1,1 @@
-web:gunicorn abtest:nc
+web: abtest
