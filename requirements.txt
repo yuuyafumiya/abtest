@@ -2,10 +2,10 @@ appdirs==1.4.4
 beautifulsoup4 @ file:///tmp/build/80754af9/beautifulsoup4_1601924105527/work
 brotlipy==0.7.0
 certifi==2020.6.20
-cffi @ file:///tmp/build/80754af9/cffi_1600699165083/work
-chardet==3.0.4
+cffi @ file:///tmp/build/80754af9/cffi_1605538083887/work
+chardet @ file:///tmp/build/80754af9/chardet_1605303175790/work
 click==7.1.2
-cryptography @ file:///tmp/build/80754af9/cryptography_1601047419573/work
+cryptography @ file:///tmp/build/80754af9/cryptography_1605544480695/work
 distlib==0.3.1
 dj-database-url==0.5.0
 dominate==2.6.0
@@ -27,13 +27,13 @@ pandas @ file:///tmp/build/80754af9/pandas_1602088135163/work
 pipenv==2020.11.4
 psycopg2 @ file:///tmp/build/80754af9/psycopg2_1594305089590/work
 pycparser @ file:///tmp/build/80754af9/pycparser_1594388511720/work
-pyOpenSSL @ file:///tmp/build/80754af9/pyopenssl_1594392929924/work
-PySocks==1.7.1
+pyOpenSSL @ file:///tmp/build/80754af9/pyopenssl_1605545627475/work
+PySocks @ file:///tmp/build/80754af9/pysocks_1605305763431/work
 python-dateutil==2.8.1
 pytz==2020.1
 requests @ file:///tmp/build/80754af9/requests_1592841827918/work
 scipy @ file:///tmp/build/80754af9/scipy_1597686625380/work
-six==1.15.0
+six @ file:///tmp/build/80754af9/six_1605205335545/work
 soupsieve==2.0.1
 urllib3 @ file:///tmp/build/80754af9/urllib3_1603305693037/work
 virtualenv==20.1.0
