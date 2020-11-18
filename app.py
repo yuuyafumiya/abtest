@@ -6,13 +6,13 @@ from flask_bootstrap import Bootstrap
 import json
 import requests
 
-nc = Flask(__name__)
+app = Flask(__name__)
 
-@nc.route("/")
+@app.route("/")
 def check():
     return render_template('index.html')
 
-@nc.route('/output', methods=['POST'])
+@app.route('/output', methods=['POST'])
 def output():
     #json形式でURLを受け取る
     allA = int(request.json['allA'])
@@ -26,4 +26,4 @@ def output():
     return jsonify(ResultSet=json.dumps(return_data))
 
 if __name__ == '__main__':
-    nc.run(host="127.0.0.1", port=8080)
+    app.run(host="127.0.0.1", port=8080)
