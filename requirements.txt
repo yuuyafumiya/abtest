@@ -19,7 +19,7 @@ importlib-resources==3.3.0
 itsdangerous==1.1.0
 Jinja2==2.11.2
 MarkupSafe==1.1.1
-mkl-fft==1.2.0
+mkl-fft==1.0.6
 mkl-random==1.1.1
 mkl-service==2.3.0
 numpy==1.19.2
